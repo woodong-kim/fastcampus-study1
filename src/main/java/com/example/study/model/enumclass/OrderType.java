@@ -7,7 +7,7 @@ import lombok.Getter;
 @Getter
 public enum OrderType {
 
-    ALL(0,"묶음","모든 상품을 묶음 발송"),
+    ALL(0,"묶음","모든 상품을 묶음으로 발송"),
     EACH(1,"개별","모든 상품을 준비되는대로 발송")
     ;
 
